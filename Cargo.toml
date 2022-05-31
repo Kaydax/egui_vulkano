@@ -11,14 +11,14 @@ categories = ["gui", "game-development"]
 edition = "2021"
 
 [dependencies]
-vulkano = { git = "https://github.com/vulkano-rs/vulkano.git", rev = "5b73d46f6d2107266f4dbb2fce0172e4a288da7a"}
-vulkano-shaders = { git = "https://github.com/vulkano-rs/vulkano.git", rev = "5b73d46f6d2107266f4dbb2fce0172e4a288da7a"}
+vulkano = { git = "https://github.com/Kaydax/vulkano.git" }
+vulkano-shaders = { git = "https://github.com/Kaydax/vulkano.git" }
 bytemuck = "1.8.0"
 egui = "0.18.1"
 thiserror = "1.0"
 
 [dev-dependencies]
 winit = "0.26.0"
-vulkano-win = { git = "https://github.com/vulkano-rs/vulkano.git", rev = "5b73d46f6d2107266f4dbb2fce0172e4a288da7a"}
+vulkano-win = { git = "https://github.com/Kaydax/vulkano.git" }
 egui-winit = "0.18.0"
 egui_demo_lib = "0.18.0"
